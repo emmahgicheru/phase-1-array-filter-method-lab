@@ -37,7 +37,7 @@ const driverObjects = [
   { name: "Leon", homecounty: "Nakuru" },
 ];
 
-// Testing the functions
+// Logging the functions
 console.log(findMatching(drivers, "Llewellyn"));
 console.log(fuzzyMatch(drivers, "Leilani"));
 console.log(matchName(driverObjects, "Leon"));
